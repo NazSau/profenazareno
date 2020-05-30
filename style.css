@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body{
-
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-
-}
-
-.content {
-    padding-top: 5%;
-}
 
 nav{
     position: fixed;
@@ -28,12 +17,12 @@ nav .logo{
 }
 
 nav .logo img {
-    max-width: 9.8%;
+    max-width: 9.7%;
     height: auto;
     transition: .5;
     background-color: rgba(0, 0, 0, 0.5);
     padding-left: 2%;
-    padding-right: 134.5%;
+    padding-right: 135.8%;
 }
 
 nav ul{
@@ -49,9 +38,7 @@ nav ul{
 
 nav ul li{
     list-style: none;
-   
     float: left;
-    
 }
 
 nav ul li a{
@@ -84,7 +71,7 @@ section .sec1{
 
 h1{
     position: fixed;
-    line-height: 1;
+    line-height: 0.5;
     color: #ffffff;
     padding: 5px 20px;
     padding-left: 5.5%;
@@ -122,7 +109,30 @@ h1{
     display: inline;
 }
 
-nav > ul > li:first-child{
-   
+body {
+    background-color: rgb(32, 32, 32);
 }
 
+.buy{
+    width: 15%;
+    border: 0;
+    padding: 1.5%;
+    float: right;
+    content: counter(hola);
+    margin-top: 30%;
+    margin-right: 4%;
+    background-color: rgb(241, 162, 42);
+  }
+  
+  .buy a{
+      text-decoration: none;
+      color: black;
+      font-size: 250%;
+      padding-left: 17%;
+      font-family: 'Roboto', sans-serif;
+  }
+  .buy:hover{
+      background-color: rgb(255, 255, 255);
+      transform: scale(0.95);
+      transition: 0.1s;
+  }
