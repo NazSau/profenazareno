@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 nav{
     position: fixed;
@@ -9,20 +13,25 @@ nav{
     height: 10px;
     box-sizing: border-box;
     transition: .5s;
-    
 }
+
+.header {
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 85px;
+    overflow: hidden;
+  }
 
 nav .logo{
     float: left;
 }
 
 nav .logo img {
-    max-width: 9.7%;
+    max-width: 17.7%;
     height: auto;
-    transition: .5;
-    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
     padding-left: 2%;
-    padding-right: 135.8%;
+    /*padding-right: 135.8%;*/
 }
 
 nav ul{
@@ -70,14 +79,13 @@ section .sec1{
 }
 
 h1{
-    position: fixed;
-    line-height: 0.5;
+  
     color: #ffffff;
-    padding: 5px 20px;
-    padding-left: 5.5%;
     font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    transition: .5s;
+    float: left;
+    max-width: 30%;
+    line-height: 350%;
+
 }
 
 .menu{
@@ -94,8 +102,6 @@ h1{
     transition: all 0.3s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
     border-left: 1px solid #fff;
     display: inline-block;
-    
-
 }
 
 .menu:focus .ani-menu,
@@ -136,3 +142,4 @@ body {
       transform: scale(0.95);
       transition: 0.1s;
   }
+
