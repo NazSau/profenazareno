@@ -27,10 +27,11 @@ nav .logo{
 }
 
 nav .logo img {
-    max-width: 16.7%;
+    max-width: 14.7%;
     height: auto;
     float: left;
     padding-left: 2%;
+    padding-top: 4px;
 }
 
 nav ul{
@@ -84,6 +85,7 @@ h1{
     max-width: 30%;
     line-height: 270%;
     font-size: 200%;
+    padding-left: 10px;
 
 }
 
